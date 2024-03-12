@@ -1,6 +1,9 @@
-dofy
-{
-    color: deeppink;
+h1{
+    color: blueviolet;
+    text-align: center;
+    font-family: "Arial";
+}
+body{
     text-align: center;
     font-family: "Arial";
 }
