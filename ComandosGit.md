@@ -129,4 +129,58 @@ git commit -m "initial commit"
 
 **git worktree:** Crea un árbol de trabajo independiente para una rama específica.
 
-**# Git Reset Test**
+**Comandos para ver el historial de commits:**
+
+* `git shortlog -sn`: Muestra el número de commits realizados por cada miembro del equipo.
+* `git shortlog -sn --all`: Muestra el número de commits realizados por cada miembro del equipo, incluyendo los que han sido eliminados.
+* `git shortlog -sn --all --no-merge`: Muestra el número de commits realizados por cada miembro del equipo, excluyendo los merges y los commits de los usuarios eliminados.
+* `git blame ARCHIVO`: Muestra quién realizó cada cambio en un archivo, línea por línea.
+* `git blame ARCHIVO -Llinea_inicial,linea_final`: Muestra quién realizó cada cambio en un archivo, línea por línea, desde la línea inicial hasta la línea final.
+
+**Comandos para ver las ramas:**
+
+* `git branch -r`: Muestra todas las ramas remotas.
+* `git branch -a`: Muestra todas las ramas, tanto locales como remotas.
+
+**Comandos para obtener ayuda:**
+
+* `git COMANDO --help`: Muestra información sobre cómo usar un comando específico.
+
+**Ejemplo:**
+
+```
+git blame README.md -L35,50
+```
+
+Este comando mostrará quién realizó cada cambio en el archivo `README.md`, desde la línea 35 hasta la línea 50.
+
+**Nota:**
+
+* Puedes usar la opción `-n` con el comando `git shortlog` para especificar el número de commits que deseas ver.
+* Puedes usar la opción `-c` con el comando `git blame` para ver la información de commit de cada línea.
+
+## Actualización del archivo README.md
+
+**Añade la siguiente información al archivo README.md:**
+
+### Resumen de comandos Git
+
+**Comandos para ver el historial de commits:**
+
+* `git shortlog -sn`: Muestra el número de commits realizados por cada miembro del equipo.
+* `git shortlog -sn --all`: Muestra el número de commits realizados por cada miembro del equipo, incluyendo los que han sido eliminados.
+* `git shortlog -sn --all --no-merge`: Muestra el número de commits realizados por cada miembro del equipo, excluyendo los merges y los commits de los usuarios eliminados.
+* `git blame ARCHIVO`: Muestra quién realizó cada cambio en un archivo, línea por línea.
+* `git blame ARCHIVO -Llinea_inicial,linea_final`: Muestra quién realizó cada cambio en un archivo, línea por línea, desde la línea inicial hasta la línea final.
+
+**Comandos para ver las ramas:**
+
+* `git branch -r`: Muestra todas las ramas remotas.
+* `git branch -a`: Muestra todas las ramas, tanto locales como remotas.
+
+**Comandos para obtener ayuda:**
+
+* `git COMANDO --help`: Muestra información sobre cómo usar un comando específico.
+
+
+
