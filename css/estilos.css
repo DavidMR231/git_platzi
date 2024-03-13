@@ -1,6 +1,6 @@
 body {
-    color: blacK;
-    text-align: center;
+  color: blacK;
+  text-align: center;
   font-family: "Arial";
   font-size: 16px;
   margin: 0;
@@ -14,17 +14,17 @@ body {
   margin: 0 auto;
 }
 #container h1 {
-    font-size: 20px;
-    color: black
+  font-size: 20px;
+  color: black;
 }
 #post {
   padding: 1em;
 }
 
 body {
-    color: #333;
-    text-align: center;
-    font-family: Arial;
+  color: #333;
+  text-align: center;
+  font-family: Arial;
   font-size: 16px;
   margin: 0;
   padding: 0;

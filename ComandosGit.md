@@ -30,24 +30,24 @@
 
 **Create a Git repository:**
 
- ```bash
- mkdir git_reset_test
- cd git_reset_test/
- git init .
- ```
+```bash
+mkdir git_reset_test
+cd git_reset_test/
+git init .
+```
 
 **Create a test file:**
 
- ```bash
- touch reset_lifecycle_file
- ```
+```bash
+touch reset_lifecycle_file
+```
 
 **Add and commit the file:**
 
- ```bash
- git add reset_lifecycle_file
- git commit -m "initial commit"
- ```
+```bash
+git add reset_lifecycle_file
+git commit -m "initial commit"
+```
 
 ### Navegación por el sistema de archivos
 
@@ -129,14 +129,4 @@
 
 **git worktree:** Crea un árbol de trabajo independiente para una rama específica.
 
- **# Git Reset Test**
-
-
-
-
-
-
-
-
-
-
+**# Git Reset Test**
